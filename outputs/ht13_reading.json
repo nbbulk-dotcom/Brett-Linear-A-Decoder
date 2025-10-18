@@ -1,0 +1,37 @@
+{
+  "HT13": {
+    "phonetic": "a sa sa ra me",
+    "confidence": 0.91,
+    "components": {
+      "phonetic": 0.92,
+      "contextual": 0.90,
+      "harmonic": 0.88,
+      "repetition": 0.91
+    },
+    "interpretation": "Tablet HT13 Reading:\nPhonetic: a sa sa ra me\nConfidence: 0.91 (High)\nPatterns: libation_formula (a-sa-sa-ra-me)\nHarmonics: 2 octaves, 1 fifth\nComponents: Phonetic 0.92, Contextual 0.90, Harmonic 0.88, Repetition 0.91",
+    "semantic_hypotheses": [
+      {
+        "type": "formula_match",
+        "name": "libation_formula",
+        "pattern": "a-sa-sa-ra-me",
+        "interpretation": "Deity name or libation homage formula",
+        "confidence": 0.91,
+        "source": "Grumach 1968; Younger 2000"
+      },
+      {
+        "type": "semantic_field",
+        "field": "religious",
+        "keyword": "libation",
+        "confidence": 0.70
+      }
+    ],
+    "harmonics": {
+      "octaves": 2,
+      "fifths": 1,
+      "fourths": 0
+    },
+    "site": "Haghia Triada",
+    "context": "administrative",
+    "source": "GORILA 2"
+  }
+}

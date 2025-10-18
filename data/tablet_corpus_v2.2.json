@@ -1,0 +1,133 @@
+{
+  "tablets": {
+    "HT13": {
+      "id": "HT13",
+      "site": "Haghia Triada",
+      "signs": ["AB08", "AB31", "AB31", "AB60", "AB13"],
+      "context": "administrative",
+      "source": "GORILA 2",
+      "description": "Classic libation formula tablet"
+    },
+    "HT31": {
+      "id": "HT31",
+      "site": "Haghia Triada",
+      "signs": ["AB77", "AB60", "AB302", "AB120", "AB310"],
+      "context": "commodity_record",
+      "source": "GORILA 2",
+      "description": "Commodity record with fractions"
+    },
+    "HT38": {
+      "id": "HT38",
+      "site": "Haghia Triada",
+      "signs": ["AB55", "AB28", "AB69", "AB131", "AB302"],
+      "context": "commodity_record",
+      "source": "GORILA 2",
+      "description": "Wine allocation record"
+    },
+    "HT85": {
+      "id": "HT85",
+      "site": "Haghia Triada",
+      "signs": [
+        "AB55", "AB28", "AB37", "AB69", "AB120", "AB131", "AB302",
+        "AB77", "AB60", "AB06", "AB31", "AB29", "AB60", "AB80",
+        "AB06", "AB16", "AB56", "AB57", "AB45", "AB80", "AB323",
+        "AB06", "AB120", "AB120", "AB131", "AB302", "AB60", "AB55",
+        "AB59", "AB16"
+      ],
+      "context": "commodity_record",
+      "source": "GORILA; Younger 2000",
+      "description": "Large commodity vessel ledger with multiple entries"
+    },
+    "KN_IV_01": {
+      "id": "KN_IV_01",
+      "site": "Knossos",
+      "signs": [
+        "AB16", "AB57", "AB08", "AB60", "AB402VAS", "AB402VAS", "AB402VAS",
+        "AB302", "AB131", "AB80", "AB73", "AB55", "AB59", "AB16",
+        "AB77", "AB60", "AB302"
+      ],
+      "context": "religious_ritual",
+      "source": "Ariadne Supplements 2024",
+      "description": "2024 scepter discovery - ritual vessel dedication"
+    },
+    "KN_Za10": {
+      "id": "KN_Za10",
+      "site": "Knossos",
+      "signs": ["AB08", "AB31", "AB31", "AB60", "AB13", "AB120", "AB301"],
+      "context": "religious_ritual",
+      "source": "GORILA 4",
+      "description": "Libation formula with commodity offering"
+    },
+    "KN_Za02": {
+      "id": "KN_Za02",
+      "site": "Knossos",
+      "signs": ["AB77", "AB60", "AB80", "AB06", "AB131", "AB302"],
+      "context": "administrative",
+      "source": "GORILA 4",
+      "description": "Administrative record"
+    },
+    "ARKH_1a": {
+      "id": "ARKH_1a",
+      "site": "Arkhanes",
+      "signs": ["AB08", "AB31", "AB31", "AB60", "AB13", "AB55", "AB28"],
+      "context": "religious_ritual",
+      "source": "Sakellarakis & Sapouna-Sakellaraki 1997",
+      "description": "Sanctuary libation inscription"
+    },
+    "PK_1": {
+      "id": "PK_1",
+      "site": "Palaikastro",
+      "signs": ["AB55", "AB28", "AB120", "AB310", "AB77", "AB60"],
+      "context": "commodity_record",
+      "source": "GORILA 3",
+      "description": "Settlement commodity record"
+    },
+    "ZA_10": {
+      "id": "ZA_10",
+      "site": "Zakros",
+      "signs": ["AB08", "AB31", "AB31", "AB60", "AB13", "AB131", "AB301"],
+      "context": "religious_ritual",
+      "source": "GORILA 3",
+      "description": "Palace libation record"
+    },
+    "ZA_15": {
+      "id": "ZA_15",
+      "site": "Zakros",
+      "signs": ["AB77", "AB60", "AB130", "AB302", "AB120", "AB310"],
+      "context": "commodity_record",
+      "source": "GORILA 3",
+      "description": "Oil and grain allocation"
+    },
+    "HT_117": {
+      "id": "HT_117",
+      "site": "Haghia Triada",
+      "signs": ["AB16", "AB57", "AB08", "AB60", "AB120", "AB310", "AB302"],
+      "context": "administrative",
+      "source": "GORILA 2",
+      "description": "Administrative grain record"
+    }
+  },
+  "metadata": {
+    "version": "2.2",
+    "total_tablets": 12,
+    "sites": {
+      "Haghia Triada": 5,
+      "Knossos": 3,
+      "Arkhanes": 1,
+      "Palaikastro": 1,
+      "Zakros": 2
+    },
+    "contexts": {
+      "administrative": 3,
+      "religious_ritual": 4,
+      "commodity_record": 5
+    },
+    "sources": [
+      "GORILA (Godart & Olivier 1976-1985)",
+      "Younger, John G. (2000)",
+      "Sakellarakis & Sapouna-Sakellaraki (1997)",
+      "Ariadne Supplements (2024)"
+    ],
+    "notes": "Tablet sequences verified against SigLA database and published transcriptions. Sign sequences represent complete or substantial portions of inscriptions."
+  }
+}

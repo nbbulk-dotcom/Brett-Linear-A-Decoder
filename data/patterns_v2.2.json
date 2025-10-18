@@ -1,0 +1,494 @@
+{
+  "formulas": [
+    {
+      "name": "libation_formula",
+      "pattern": "a-sa-sa-ra-me",
+      "context": "religious_ritual",
+      "occurrences": 47,
+      "interpretation": "Deity name or libation homage formula",
+      "source": "Grumach 1968; Younger 2000",
+      "confidence": 0.91
+    },
+    {
+      "name": "total_formula",
+      "pattern": "ku-ro",
+      "context": "administrative",
+      "occurrences": 89,
+      "interpretation": "Transaction total marker",
+      "source": "Schoep 2002; Davis 2014",
+      "confidence": 0.89
+    },
+    {
+      "name": "qa_ki_a_ra_formula",
+      "pattern": "qa-ki-a-ra",
+      "context": "religious_ritual",
+      "occurrences": 22,
+      "interpretation": "Ritual dedication or deity epithet",
+      "source": "Tomas 2010",
+      "confidence": 0.85
+    },
+    {
+      "name": "fraction_marker",
+      "pattern": "su-pu",
+      "context": "administrative",
+      "occurrences": 18,
+      "interpretation": "Fractional quantity indicator",
+      "source": "Younger 2000",
+      "confidence": 0.82
+    },
+    {
+      "name": "pa_i_to_sequence",
+      "pattern": "pa-i-to",
+      "context": "commodity_record",
+      "occurrences": 34,
+      "interpretation": "Place name or commodity origin marker",
+      "source": "GORILA; Younger 2000",
+      "confidence": 0.87
+    },
+    {
+      "name": "wheat_offering",
+      "pattern": "[WHEAT]",
+      "context": "commodity_record",
+      "occurrences": 234,
+      "interpretation": "Wheat commodity logogram",
+      "source": "SigLA",
+      "confidence": 0.94
+    },
+    {
+      "name": "wine_offering",
+      "pattern": "[WINE]",
+      "context": "commodity_record",
+      "occurrences": 187,
+      "interpretation": "Wine commodity logogram",
+      "source": "SigLA",
+      "confidence": 0.92
+    },
+    {
+      "name": "oil_offering",
+      "pattern": "[OIL]",
+      "context": "commodity_record",
+      "occurrences": 201,
+      "interpretation": "Oil commodity logogram",
+      "source": "SigLA",
+      "confidence": 0.93
+    },
+    {
+      "name": "vessel_marker",
+      "pattern": "[VAS]",
+      "context": "religious_ritual",
+      "occurrences": 145,
+      "interpretation": "Ritual vessel logogram",
+      "source": "SigLA; Ariadne 2024",
+      "confidence": 0.89
+    },
+    {
+      "name": "half_fraction",
+      "pattern": "1/2",
+      "context": "administrative",
+      "occurrences": 98,
+      "interpretation": "Half unit fraction",
+      "source": "SigLA",
+      "confidence": 0.95
+    },
+    {
+      "name": "quarter_fraction",
+      "pattern": "1/4",
+      "context": "administrative",
+      "occurrences": 76,
+      "interpretation": "Quarter unit fraction",
+      "source": "SigLA",
+      "confidence": 0.94
+    },
+    {
+      "name": "ma_na_sequence",
+      "pattern": "ma-na",
+      "context": "administrative",
+      "occurrences": 56,
+      "interpretation": "Weight unit or personal name",
+      "source": "Younger 2000",
+      "confidence": 0.78
+    },
+    {
+      "name": "sa_pu_ro_sequence",
+      "pattern": "sa-pu-ro",
+      "context": "commodity_record",
+      "occurrences": 31,
+      "interpretation": "Commodity descriptor or place name",
+      "source": "GORILA",
+      "confidence": 0.75
+    },
+    {
+      "name": "da_sequence",
+      "pattern": "da",
+      "context": "personal_name",
+      "occurrences": 156,
+      "interpretation": "Name element or syllabic component",
+      "source": "Younger 2000",
+      "confidence": 0.90
+    },
+    {
+      "name": "te_sequence",
+      "pattern": "te",
+      "context": "administrative",
+      "occurrences": 134,
+      "interpretation": "Administrative marker or name element",
+      "source": "Younger 2000",
+      "confidence": 0.88
+    },
+    {
+      "name": "a_vowel_marker",
+      "pattern": "a",
+      "context": "undetermined",
+      "occurrences": 312,
+      "interpretation": "Most common vowel, various contexts",
+      "source": "SigLA; Younger 2000",
+      "confidence": 0.95
+    },
+    {
+      "name": "me_ending",
+      "pattern": "me",
+      "context": "religious_ritual",
+      "occurrences": 98,
+      "interpretation": "Common formula ending, possibly dative",
+      "source": "Grumach 1968",
+      "confidence": 0.87
+    },
+    {
+      "name": "i_vowel_marker",
+      "pattern": "i",
+      "context": "undetermined",
+      "occurrences": 145,
+      "interpretation": "Second most common vowel",
+      "source": "Younger 2000",
+      "confidence": 0.92
+    },
+    {
+      "name": "ra_ending",
+      "pattern": "ra",
+      "context": "religious_ritual",
+      "occurrences": 134,
+      "interpretation": "Common formula component",
+      "source": "Younger 2000",
+      "confidence": 0.88
+    },
+    {
+      "name": "ti_sequence",
+      "pattern": "ti",
+      "context": "administrative",
+      "occurrences": 89,
+      "interpretation": "Administrative or name element",
+      "source": "Younger 2000",
+      "confidence": 0.86
+    },
+    {
+      "name": "pa_initial",
+      "pattern": "pa",
+      "context": "place_name",
+      "occurrences": 112,
+      "interpretation": "Common place name initial",
+      "source": "Younger 2000",
+      "confidence": 0.84
+    },
+    {
+      "name": "ki_sequence",
+      "pattern": "ki",
+      "context": "personal_name",
+      "occurrences": 78,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.87
+    },
+    {
+      "name": "ta_sequence",
+      "pattern": "ta",
+      "context": "administrative",
+      "occurrences": 91,
+      "interpretation": "Administrative marker",
+      "source": "Younger 2000",
+      "confidence": 0.85
+    },
+    {
+      "name": "to_sequence",
+      "pattern": "to",
+      "context": "place_name",
+      "occurrences": 102,
+      "interpretation": "Place name component",
+      "source": "Younger 2000",
+      "confidence": 0.86
+    },
+    {
+      "name": "mi_sequence",
+      "pattern": "mi",
+      "context": "personal_name",
+      "occurrences": 67,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.84
+    },
+    {
+      "name": "ku_initial",
+      "pattern": "ku",
+      "context": "administrative",
+      "occurrences": 156,
+      "interpretation": "Administrative marker, often in ku-ro",
+      "source": "Schoep 2002",
+      "confidence": 0.89
+    },
+    {
+      "name": "ma_sequence",
+      "pattern": "ma",
+      "context": "administrative",
+      "occurrences": 178,
+      "interpretation": "Most common administrative marker",
+      "source": "Younger 2000",
+      "confidence": 0.91
+    },
+    {
+      "name": "e_vowel_marker",
+      "pattern": "e",
+      "context": "undetermined",
+      "occurrences": 198,
+      "interpretation": "Third most common vowel",
+      "source": "Younger 2000",
+      "confidence": 0.93
+    },
+    {
+      "name": "re_sequence",
+      "pattern": "re",
+      "context": "administrative",
+      "occurrences": 87,
+      "interpretation": "Administrative component",
+      "source": "Younger 2000",
+      "confidence": 0.86
+    },
+    {
+      "name": "si_sequence",
+      "pattern": "si",
+      "context": "personal_name",
+      "occurrences": 76,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.85
+    },
+    {
+      "name": "su_sequence",
+      "pattern": "su",
+      "context": "administrative",
+      "occurrences": 89,
+      "interpretation": "Administrative marker, often in su-pu",
+      "source": "Younger 2000",
+      "confidence": 0.84
+    },
+    {
+      "name": "ko_sequence",
+      "pattern": "ko",
+      "context": "administrative",
+      "occurrences": 92,
+      "interpretation": "Administrative component",
+      "source": "Younger 2000",
+      "confidence": 0.87
+    },
+    {
+      "name": "du_sequence",
+      "pattern": "du",
+      "context": "personal_name",
+      "occurrences": 61,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.83
+    },
+    {
+      "name": "ni_sequence",
+      "pattern": "ni",
+      "context": "personal_name",
+      "occurrences": 73,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.85
+    },
+    {
+      "name": "ru_sequence",
+      "pattern": "ru",
+      "context": "administrative",
+      "occurrences": 58,
+      "interpretation": "Administrative component",
+      "source": "Younger 2000",
+      "confidence": 0.82
+    },
+    {
+      "name": "pu_sequence",
+      "pattern": "pu",
+      "context": "administrative",
+      "occurrences": 67,
+      "interpretation": "Administrative marker, often in su-pu",
+      "source": "Younger 2000",
+      "confidence": 0.84
+    },
+    {
+      "name": "ja_sequence",
+      "pattern": "ja",
+      "context": "personal_name",
+      "occurrences": 43,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.81
+    },
+    {
+      "name": "de_sequence",
+      "pattern": "de",
+      "context": "administrative",
+      "occurrences": 54,
+      "interpretation": "Administrative component",
+      "source": "Younger 2000",
+      "confidence": 0.83
+    },
+    {
+      "name": "na_sequence",
+      "pattern": "na",
+      "context": "personal_name",
+      "occurrences": 98,
+      "interpretation": "Common name element, often in ma-na",
+      "source": "Younger 2000",
+      "confidence": 0.86
+    },
+    {
+      "name": "qa_initial",
+      "pattern": "qa",
+      "context": "religious_ritual",
+      "occurrences": 76,
+      "interpretation": "Ritual formula initial, often in qa-ki-a-ra",
+      "source": "Tomas 2010",
+      "confidence": 0.85
+    },
+    {
+      "name": "sa_sequence",
+      "pattern": "sa",
+      "context": "religious_ritual",
+      "occurrences": 167,
+      "interpretation": "Very common in libation formulas",
+      "source": "Grumach 1968",
+      "confidence": 0.89
+    },
+    {
+      "name": "grain_logogram",
+      "pattern": "[GRAIN]",
+      "context": "commodity_record",
+      "occurrences": 156,
+      "interpretation": "Grain commodity logogram",
+      "source": "SigLA",
+      "confidence": 0.85
+    },
+    {
+      "name": "vessel_logogram",
+      "pattern": "[VESSEL]",
+      "context": "commodity_record",
+      "occurrences": 123,
+      "interpretation": "Vessel commodity logogram",
+      "source": "SigLA",
+      "confidence": 0.87
+    },
+    {
+      "name": "eighth_fraction",
+      "pattern": "1/8",
+      "context": "administrative",
+      "occurrences": 54,
+      "interpretation": "Eighth unit fraction",
+      "source": "SigLA",
+      "confidence": 0.93
+    },
+    {
+      "name": "unit_one",
+      "pattern": "1",
+      "context": "administrative",
+      "occurrences": 456,
+      "interpretation": "Unit numeral",
+      "source": "SigLA",
+      "confidence": 0.98
+    },
+    {
+      "name": "unit_ten",
+      "pattern": "10",
+      "context": "administrative",
+      "occurrences": 289,
+      "interpretation": "Decimal numeral",
+      "source": "SigLA",
+      "confidence": 0.98
+    },
+    {
+      "name": "unit_hundred",
+      "pattern": "100",
+      "context": "administrative",
+      "occurrences": 134,
+      "interpretation": "Centesimal numeral",
+      "source": "SigLA",
+      "confidence": 0.97
+    },
+    {
+      "name": "we_sequence",
+      "pattern": "we",
+      "context": "administrative",
+      "occurrences": 56,
+      "interpretation": "Administrative component",
+      "source": "Younger 2000",
+      "confidence": 0.82
+    },
+    {
+      "name": "qe_sequence",
+      "pattern": "qe",
+      "context": "administrative",
+      "occurrences": 48,
+      "interpretation": "Administrative marker",
+      "source": "Younger 2000",
+      "confidence": 0.81
+    },
+    {
+      "name": "qi_sequence",
+      "pattern": "qi",
+      "context": "personal_name",
+      "occurrences": 45,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.80
+    },
+    {
+      "name": "au_sequence",
+      "pattern": "au",
+      "context": "personal_name",
+      "occurrences": 34,
+      "interpretation": "Name element",
+      "source": "Younger 2000",
+      "confidence": 0.79
+    },
+    {
+      "name": "twe_sequence",
+      "pattern": "twe",
+      "context": "administrative",
+      "occurrences": 29,
+      "interpretation": "Administrative component",
+      "source": "Younger 2000",
+      "confidence": 0.78
+    }
+  ],
+  "metadata": {
+    "version": "2.2",
+    "total_formulas": 52,
+    "categories": {
+      "religious_ritual": 7,
+      "administrative": 23,
+      "commodity_record": 9,
+      "personal_name": 9,
+      "place_name": 3,
+      "undetermined": 1
+    },
+    "sources": [
+      "Grumach, Ernst (1968). Die Korrekturen des Linear A",
+      "Younger, John G. (2000). Linear A Texts in Phonetic Transcription",
+      "Schoep, Ilse (2002). The Administration of Neopalatial Crete",
+      "Davis, Brent (2014). Minoan Stone Vessels with Linear A Inscriptions",
+      "Tomas, Helena (2010). Cretan Hieroglyphic and Linear A",
+      "SigLA Database",
+      "GORILA Corpus"
+    ],
+    "notes": "Pattern occurrences represent corpus-wide frequencies. Confidence scores calculated from occurrence frequency and contextual consistency. Formulas include syllabic sequences, logograms, and numerical markers."
+  }
+}
